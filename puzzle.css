@@ -11,8 +11,7 @@ body {
 }
 .container {
   min-height: 100vh;
-  /* background-image:linear-gradient( 69.7deg, rgb(165, 23, 30) 1.4%, rgb(189, 177, 7) 36.2%, rgb(50, 135, 7) 72.2%, rgb(0, 3, 205) 113% ) ; */
-  background-image: linear-gradient( 65.4deg,  rgba(56,248,249,1) -9.1%, rgba(213,141,240,1) 48%, rgba(249,56,152,1) 111.1% );
+  background-image: linear-gradient( 58.2deg,  rgba(40,91,212,0.73) -3%, rgba(171,53,163,0.45) 49.3%, rgba(223, 241, 29, 0.954) 97.7% );
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,7 +26,7 @@ body {
   top: 20%;
   right: -26%;
   transform: translate(-50%, -50%);
-  filter: drop-shadow(0 0 1px black);
+  filter: drop-shadow(0 0 1px #486891);
 }
 .container h1:nth-child(1) {
   color: transparent;
@@ -85,7 +84,7 @@ body {
     text-decoration: none;
     font-size: 1.8rem;
     padding: 0.4rem 0.7rem;
-    box-shadow: 0 0 4px rgb(203, 8, 203);
+    box-shadow: 0 0 4px rgb(164, 50, 50);
     font-stretch: extra-expanded;
     text-shadow: 0 0 4px greenyellow;
     color: #c70070;
@@ -95,6 +94,11 @@ body {
     border-bottom-left-radius: 15px;
     border-left: 2px solid #c70070;
     border-right: 2px solid #c70070;
+    transition: 1s;
+}
+.container a:hover{
+    color: rgb(4, 2, 58);
+    text-shadow: 0 0 4px whitesmoke;
 }
 
 #title {
